@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <title>Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+<%- include("../partials/navbar") %>
+<!-- MAIN HOME CONTENT -->
+<div id="home">
+
+  <!-- NAME -->
+  <div class="name-wrap">
+    <div class="name-display">Kapil<span>.</span>Gautam</div>
+  </div>
+
+  <!-- SEARCH / IDENTITY -->
+  <div class="search-container">
+    <div class="search-bar">
+      <span class="typewriter-text">
+        learning AI, building real-world projects
+      </span>
+    </div>
+  </div>
+
+  <!-- CARDS -->
+  <div class="shortcuts">
+
+    <a href="/projects" class="shortcut-card">
+      <div class="shortcut-initial">P</div>
+      <div class="shortcut-label">Projects</div>
+    </a>
+
+    <a href="/learning" class="shortcut-card">
+      <div class="shortcut-initial">L</div>
+      <div class="shortcut-label">Learning</div>
+    </a>
+
+    <a href="/research" class="shortcut-card">
+      <div class="shortcut-initial">R</div>
+      <div class="shortcut-label">Research</div>
+    </a>
+
+    <a href="/blog" class="shortcut-card">
+      <div class="shortcut-initial">B</div>
+      <div class="shortcut-label">Blog</div>
+    </a>
+
+  </div>
+
+</div>
+
+<!-- your content -->
+ <script src="/canvas.js"></script>
+  <script src="/typewritter.js"></script>
+  <script src="/navigation.js"></script>
+</body>
+</html>
